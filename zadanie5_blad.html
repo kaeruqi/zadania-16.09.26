@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>bladowski 2kp</title>
+    <script language="JavaScript"> 
+        document.write("<div style='text-align: center; font-size: 20px; font-weight: bold; color: red;'>wykonał: Jan Bladowski mój numer w dzienniku 1, czyli mam układ [(1) mod 4=1] układ 1</div><br><br>");
+
+        function WinOpen_z1() {
+            window.open("zad_grafika_blad1.html", "okienko_z1", "toolbar=no,directories=no,menubar=no,height=370,width=320,top=430,left=300");
+        }
+
+        function WinOpen_z2() {
+            window.open("zad_grafika_blad2.html", "okienko_z2", "toolbar=no,directories=no,menubar=no,height=370,width=320,top=430,left=650");
+        }
+
+        function WinOpen_z3() {
+            window.open("zad_grafika_blad3.html", "okienko_z3", "toolbar=no,directories=no,menubar=no,height=370,width=320,top=430,left=1000");
+        }
+
+        function WinOpen_z4() {
+            window.open("zad_grafika_blad4.html", "okienko_z4", "toolbar=no,directories=no,menubar=no,height=370,width=320,top=430,left=1350");
+        }
+
+        function okno_zamknij() {
+            window.close();
+        }
+    </script>
+</head>
+<body>
+    <form align="center">
+        <input type="button" name="grafika1" value="grafika1" onclick="WinOpen_z1()">
+        <input type="button" name="grafika2" value="grafika2" onclick="WinOpen_z2()">
+        <input type="button" name="grafika3" value="grafika3" onclick="WinOpen_z3()">
+        <input type="button" name="grafika4" value="grafika4" onclick="WinOpen_z4()">
+        <br><br><br><br><br>
+        <input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+    </form>
+</body>
+</html>
